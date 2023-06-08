@@ -1,0 +1,94 @@
+body{
+    display:flex;
+    flex-direction: row;
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-left: 600px;
+}
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 500px;
+}
+#div3{
+    display: block;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#div2{
+    background-color: white;
+    padding: 0px 20px 0px 20px;
+    padding-right: 100px;
+    
+}
+#p1{
+    font-family: "Montserrat";
+    letter-spacing: 6px;
+    color:hsl(228, 12%, 48%);
+    padding-top: 10px;
+    font-size: 14px;
+}
+h1{
+    font-size: xx-large;
+    font-family: "Fraunces";
+    font-weight: 700;
+    
+}
+#p2{
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    
+}
+#precios{
+    display: flex;
+    flex-direction: row;
+}
+#p3{
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    padding:0px;
+    margin-bottom: 30px;
+    margin-top: 10PX;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Fraunces";
+    font-weight: 700;
+}
+#p4{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    padding-top: 10px;
+}
+#div5{
+    display: flex;
+    justify-content: center;
+    
+}
+#icon{
+    width: 10%;
+    height: auto;
+    padding: 0px 15px;
+}
+#boton{
+    display: flex;
+    font-family: "Montserrat";
+    color: white;
+    width: 60%;
+    background-color: hsl(158, 36%, 26%);
+    border-radius: 10px;
+    padding: 20px 0px;
+    border: none;
+    margin-top:20px ;
+    font-size: 20px;
+}
